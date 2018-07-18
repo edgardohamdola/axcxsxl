@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_ptkn"
+        android:icon="@drawable/ic_face_black_24dp"
+        android:title="@string/title_praktikan" />
+
+    <item
+        android:id="@+id/navigation_jdw"
+        android:icon="@drawable/ic_schedule_black_24dp"
+        android:title="@string/title_jadwal" />
+
+
+    <item
+        android:id="@+id/navigation_lpla"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/title_lpla" />
+
+    <item
+        android:id="@+id/navigation_modul"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="@string/title_modul" />
+
+</menu>

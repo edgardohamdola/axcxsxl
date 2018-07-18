@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wsid.acsl">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ActivityMdl"
+            android:label="@string/mdl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modul.Fpga"
+            android:label="@string/mdlfpga"
+            android:parentActivityName=".ActivityMdl">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.ActivityMdl" />
+        </activity>
+        <activity
+            android:name=".modul.Jkd"
+            android:label="@string/mdljkd"
+            android:parentActivityName=".ActivityMdl">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.ActivityMdl" />
+        </activity>
+        <activity
+            android:name=".modul.Jkl"
+            android:label="@string/mdljkl"
+            android:parentActivityName=".ActivityMdl">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.ActivityMdl" />
+        </activity>
+        <activity
+            android:name=".modul.Mcs"
+            android:label="@string/mdlmcs"
+            android:parentActivityName=".ActivityMdl">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.ActivityMdl" />
+        </activity>
+        <activity
+            android:name=".LpaActivity"
+            android:hardwareAccelerated="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        //fpgaquiz
+        <activity android:name=".multichoice1.Quiz_fpga.QuizActivityfpga" />
+        <activity android:name=".multichoice1.Quiz_fpga.HighestScoreActivityfpga" />
+        //fpgaquiz
+
+        //jkdquiz
+        <activity android:name=".multichoice1.Quiz_jkd.QuizActivityjkd" />
+        <activity android:name=".multichoice1.Quiz_jkd.HighestScoreActivityjkd" />
+        //jkdquiz
+
+        //jklquiz
+        <activity android:name=".multichoice1.Quiz_jkl.QuizActivityjkl" />
+        <activity android:name=".multichoice1.Quiz_jkl.HighestScoreActivityjkl" />
+        //jklquiz
+
+        //mcsquiz
+        <activity android:name=".multichoice1.Quiz_mcs.QuizActivitymcs" />
+        <activity android:name=".multichoice1.Quiz_mcs.HighestScoreActivitymcs" />
+        //mcsquiz
+        <activity
+            android:name=".Homequiz_fpga"
+            android:label="Quiz FPGA"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Homequiz_jkl"
+            android:label="Quiz JKL"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Homequiz_jkd"
+            android:label="Quiz JKD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Homequiz_mcs"
+            android:label="Quiz MCS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cv_pjshift.Pjshiftmore_Activity"
+            android:hardwareAccelerated="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".rule.Rule_Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".konsekuensi.Konsekuensi_Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Faq"
+            android:label="F.A.Q"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="wsid.acsl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Jadprak_pta"
+            android:label="@string/title_activity_jadprak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Jadprak_ata"
+            android:label="@string/title_activity_jadprak"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Praktikan"
+            android:label="Daftar Praktikan" />
+        <activity
+            android:name=".Mhs.MhsFPGA"
+            android:label="Praktikan FPGA"
+            android:parentActivityName=".Praktikan"></activity>
+        <activity
+            android:name=".Mhs.MhsJKD"
+            android:label="Praktikan JKD"
+            android:parentActivityName=".Praktikan"></activity>
+        <activity
+            android:name=".Mhs.MhsJKL"
+            android:label="Praktikan JKL"
+            android:parentActivityName=".Praktikan"></activity>
+        <activity
+            android:name=".Mhs.MhsMCS"
+            android:label="Praktikan MCS"
+            android:parentActivityName=".Praktikan"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#183a44</color>
+    <color name="colorPrimaryDark">#08181f</color>
+    <color name="colorAccent">#ff002b</color>
+
+    <color name="call">#000000</color>
+    <color name="ToolbarSubtitleAppearance">#fadf10</color>
+
+</resources>

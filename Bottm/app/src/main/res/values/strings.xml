@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">ACSL Mobile</string>
+    <string name="title_home">Home</string>
+    <string name="title_jadprak">JadPrak</string>
+    <string name="title_jadwal">Jadwal</string>
+    <string name="title_praktikan">Praktikan</string>
+    <string name="title_lpla">Laporan</string>
+    <string name="title_modul">Modul</string>
+    <string name="title_activity_lpa">Laporan Awal dan Akhir</string>
+    <string name="action_settings">Settings</string>
+    <string name="mdl">Modul Panduan</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="mdlfpga">Field Programmable Gate Array</string>
+    <string name="mdljkd">Jaringan Komputer Dasar</string>
+    <string name="mdljkl">Jaringan Komputer Lanjut</string>
+    <string name="mdlmcs">Mobile Computing System</string>
+    <string name="card_title">Laboratorium Lanjut Sistem Komputer Universitas Gunadarma</string>
+    <string name="desc_card">bgcover</string>
+
+    <string name="slider_main1">Uji Kemampuan dengan mengerjakan Quiz </string>
+    <string name="slider_main2">PJ Shift/Asisten</string>
+
+
+    //item untuk cardview pjshift
+    <array name="profile_pics">
+        <item>@drawable/pro01</item>
+        <item>@drawable/pro02</item>
+        <item>@drawable/pro03</item>
+        <item>@drawable/pro04</item>
+    </array>
+    <string-array name="nama">
+        <item>Edgardo Hamdola</item>
+        <item>M Rizqi Ariadi</item>
+        <item>Thomi Alghani</item>
+        <item>Fiesta Wahyudiar</item>
+    </string-array>
+    <string-array name="shift">
+        <item>FPGA, JKD, JKL, MCS : A,B,C </item>
+        <item>FPGA, JKD, JKL, MCS : G,H,I  </item>
+        <item>FPGA, JKD, JKL, MCS : D,E,F  </item>
+        <item>FPGA, JKD, JKL, MCS : J,K,L  </item>
+    </string-array>
+    <string-array name="nohp">
+        <item>087780940840</item>
+        <item>081272744420</item>
+        <item>087712343153</item>
+        <item>085616436733</item>
+        <item>088890124565</item>
+    </string-array>
+    //item untuk cardview pjshift
+
+
+    <array name="profile_picspjmore">
+        <item>@drawable/pro01</item>
+        <item>@drawable/pro02</item>
+        <item>@drawable/pro03</item>
+        <item>@drawable/pro04</item>
+        <item>@drawable/pro05</item>
+        <item>@drawable/pro06</item>
+        <item>@drawable/pro07</item>
+        <item>@drawable/pro08</item>
+    </array>
+    <string-array name="namapjmore">
+        <item>Edgardo Hamdola</item>
+        <item>M Rizqi Ariadi</item>
+        <item>Thomi Alghani</item>
+        <item>Fiesta Wahyudiar</item>
+        <item>Rahayu Susanti</item>
+        <item>Putri Melani</item>
+        <item>Muharam Tri Putra</item>
+        <item>Fitri Novita Yani</item>
+    </string-array>
+
+    <string-array name="shiftpjmore">
+        <item>FPGA : A,B,C | JKD : A,B,C | JKL : A,B,C | MCS : A,B,C </item>
+        <item>FPGA : G,H,I | JKD : G,H,I | JKL : G,H,I | MCS :G,H,I </item>
+        <item>FPGA : D,E,F | JKD : D,E,F | JKL : D,E,F | MCS :D,E,F </item>
+        <item>FPGA : J,K,L | JKD : J,K,L | JKL : J,K,L | MCS :J,K,L </item>
+        <item>FPGA : M,N,O | JKD : M,N,O | JKL : M,N,O | MCS :M,N,O </item>
+        <item>FPGA : P,Q,R | JKD : P,Q,R | JKL : P,Q,R | MCS :P,Q,R </item>
+        <item>FPGA : S,T,U | JKD : S,T,U | JKL : S,T,U| MCS :S,T,U </item>
+        <item>FPGA : V,W,X | JKD : V,W,X | JKL : V,W,X| MCS :V,W,X </item>
+    </string-array>
+    <string-array name="nohppjmore">
+        <item>087780940840</item>
+        <item>081272744420</item>
+        <item>087712343153</item>
+        <item>085616436733</item>
+        <item>088890124565</item>
+        <item>089034135642</item>
+        <item>089744235263</item>
+        <item>081335343456</item>
+    </string-array>
+
+    //rule
+    <string-array name="rule_point">
+        <item>Pakaian</item>
+        <item>Keterlambatan</item>
+        <item>Maksimal Ketidakhadiran</item>
+        <item>Tidak hadir praktikum </item>
+        <item>Buku Laporan dan Modul</item>
+        <item>Tanggung Jawab</item>
+        <item>Meninggalkan Ruangan </item>
+        <item>Ketentuan Nilai</item>
+    </string-array>
+    <string-array name="desc_rule">
+        <item>
+            Pria	:	celana panjang + kemeja ( bukan bahan kaos ) + sepatu tertutup \n
+            Wanita	:	rok ( dengkul tertutup ) / celana panjang + kemeja (bukan bahan kaos) + sepatu tertutup</item>
+        <item>Batas keterlambatan 15 menit dan harus mendapat izin mengikuti praktikum dari PJ Shift yang bersangkutan dan tidak ada penambahan waktu untuk Test Pendahuluan. </item>
+        <item>Batas maksimal ketidak hadiran sebanyak 2 kali. Lebih dari itu peserta gagal praktikum, dan dapat mengikuti pengulangan praktikum pada semester selanjutnya. </item>
+        <item>Apabila peserta tidak hadir praktikum dikarenakan sakit harus membawa surat keterangan dari rumah sakit tempat berobat. Jika tidak ada kabar, maka peserta di kenakan Blanko pengulangan praktikum. </item>
+        <item>Membawa Laporan Pendahuluan, Laporan Akhir, Modul Praktikum, Modul Panduan(Optional) dan Data Pengamatan. Jika tidak membawa maka tidak diperkenankan mengikuti praktikum, dan di anggap absen.</item>
+        <item>Selama praktikum berlansung, peserta bertanggung jawab terhadap alat-alat yang digunakan serta wajib menjaga kebersihan laboratorium.</item>
+        <item>Selama praktikum berlansung peserta dilarang meninggalkan ruangan tanpa izin dari PJ Shift bersangkutan.</item>
+        <item>
+
+            TOTAL HARIAN \n
+            1.	Test Pendahuluan 	: Max 20 \n
+            2.	Laporan Pendahuluan	: Max 20 \n
+            3.	Laporan Akhir		: Max 20 \n
+            4.	Ketrampilan		    : Max 40
+            \n\n
+
+            TOTAL UJIAN : \n
+            1.	Ujian Praktek		: Max 50 \n
+            2.	Ujian Teori			: Max 20 \n
+            3.	Proyek			    : Max 30\n
+        </item>
+    </string-array>
+    //rule
+
+    //konsekuensi
+    <string-array name="konsekuensi_point">
+        <item>1.	Tidak membawa atau Tidak mengerjakan LA dan/atau LP buku LALP</item>
+        <item>2.	Terlambat kurang dari 15 Menit</item>
+        <item>3.	Terlambat lebih dari 15 Menit</item>
+        <item>4.	Terlambat lebih dari 30 Menit</item>
+        <item>5.	Mencharge hp, Download, streaming, dan/atau menggunakan handphone tanpa izin saat praktikum berlangsung. Jika terjadi, maka untuk setiap kejadian di shift tersebut:</item>
+        <item>6.	Dengan sengaja merusak fasilitas / perangkat praktikum lab</item>
+        <item>7.	Datang, tetapi tidak mau mengikuti proses praktikum dengan baik</item>
+    </string-array>
+    <string-array name="desc_konsekuensi">
+        <item>Tidak diperbolehkan masuk.</item>
+        <item>Boleh masuk, tetapi hanya sampai sisa waktu. (15mnt setelah waktu mulai)</item>
+        <item>Jika dengan alasan yg bisa diterima (misal: kereta gangguan, ada urusan dengan dosen,
+            dsbg), tidak boleh mengerjakan tp.</item>
+        <item>  a.	Tidak diperbolehkan mengikuti praktikum pada hari itu. \n
+                b.	Diperbolehkan, asal membawa surat/bukti keterangan tentang hal yang menyebabkan
+            keterlambatan(ban pecah, rantai putus, dsbg) harus disertakan bukti(rante putus, ban dalam bolong).
+        </item>
+        <item>
+            a.	1 kali, teguran. \n
+            b.	2 kali, dibatalkan nilai TP nya. \n
+            c.	3 kali, dibatalkan nilai LA LP nya.\n
+            d.	Dikeluarkan dari praktikum yang sedang berlangsung dan dianggap tidak hadir.
+
+        </item>
+        <item>a.	Mengganti / memperbaiki kerusakan,</item>
+        <item>a.	1 kali, teguran. \n
+              b.	Dikurangi nilai keaktifannya,
+</item>
+    </string-array>
+    //konsekuensi
+
+    //about app
+    <string name="abt">
+        Apa itu ACSL Mobile ? \n\n
+    ACSL (Advanced Computer System Laboratory) merupakan aplikasi saku yang bisa dijadikan
+        panduan edukasi dalam mengikuti praktikum di
+    laboratorium lanjut sistem komputer. Aplikasi ini memiliki fitur seperti Quiz yang dapat
+        mengukur sejauh mana praktikan dalam menguasai materi
+    lalu ada kontak PJ Shift yang bisa dihubungi, soal-soal laporan awal dan laporan akhir dan juga
+        modul panduan yang bisa digunakan praktikan
+    untuk menguasai materi laboratorium.
+
+
+    </string>
+    <string name="title_activity_jadprak">JadPrak</string>
+    <string name="title_activity_coba">Coba</string>
+    //about app
+
+    <string-array name="pta">
+        <item>Semester Ganjil (PTA)</item>
+        <item>Semester Genap (ATA)</item>
+    </string-array>
+
+    <string-array name="ata">
+        <item>Semester Genap (ATA)</item>
+        <item>Semester Ganjil (PTA)</item>
+    </string-array>
+
+
+</resources>
